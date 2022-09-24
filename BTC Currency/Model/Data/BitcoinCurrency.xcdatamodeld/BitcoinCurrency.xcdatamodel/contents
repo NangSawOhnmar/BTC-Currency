@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E230" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BTC" representedClassName="BTC" syncable="YES" codeGenerationType="class">
+        <attribute name="chartName" optional="YES" attributeType="String"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="eur_rate" optional="YES" attributeType="String"/>
+        <attribute name="gbp_rate" optional="YES" attributeType="String"/>
+        <attribute name="updatedISO" optional="YES" attributeType="String"/>
+        <attribute name="updatedTime" optional="YES" attributeType="String"/>
+        <attribute name="updateduk" optional="YES" attributeType="String"/>
+        <attribute name="usd_rate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EUR" representedClassName="EUR" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="rate" optional="YES" attributeType="String"/>
+        <attribute name="rate_float" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GBP" representedClassName="GBP" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="rate" optional="YES" attributeType="String"/>
+        <attribute name="rate_float" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="USD" representedClassName="USD" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="rate" optional="YES" attributeType="String"/>
+        <attribute name="rate_float" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="BTC" positionX="-63" positionY="-18" width="128" height="149"/>
+        <element name="USD" positionX="-36" positionY="27" width="128" height="104"/>
+        <element name="GBP" positionX="-18" positionY="36" width="128" height="104"/>
+        <element name="EUR" positionX="0" positionY="45" width="128" height="104"/>
+    </elements>
+</model>
